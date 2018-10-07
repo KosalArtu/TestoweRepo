@@ -1,0 +1,6 @@
+﻿CREATE TABLE [testowy].[tabela1] (
+    [kolumna1] INT            NOT NULL,
+    [kolumna2] NVARCHAR (100) DEFAULT (N'wartosc_tekstowa') NOT NULL,
+    PRIMARY KEY CLUSTERED ([kolumna1] ASC)
+);
+
